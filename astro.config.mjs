@@ -5,5 +5,5 @@ import tailwind from "@astrojs/tailwind";
 // https://astro.build/config
 export default defineConfig({
   integrations: [tailwind()],
-  output: 'server' // dynamic server-side rendering
+  output: 'hybrid' // dynamic server-side rendering
 });
