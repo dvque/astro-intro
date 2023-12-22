@@ -15,6 +15,5 @@ Esto es un ejemplo de mensaje de prueba.
 
 ```javascript
 function (){
-    console.log('hola mundo')
-}
+    console.log('Hola mundo');}
 ```

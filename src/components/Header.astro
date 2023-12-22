@@ -1,6 +1,6 @@
 ---
 import HeaderButton from "./HeaderButton.astro";
-console.log("javascript loaded");
+import Counter from "./counter.jsx";
 ---
 
 <header class="py-8 px-4 mx-auto max-w-xl lg:py-16 lg:px-6">
@@ -12,6 +12,8 @@ console.log("javascript loaded");
             All the information baout SpaceX launches
         </p>
     </div>
+
+    <Counter client:visible />
 
     <nav
         class="flex flex-col items-center justify-between w-full text-center md:flex-row"
